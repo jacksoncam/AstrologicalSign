@@ -11,50 +11,50 @@ inputDay = int(input("Please enter the day of your birth : "))
 Months = []
 Days = []
 Days.append(int(inputDay))
-Months.append(inputMonth)
+Months.append(str(inputMonth))
 messageAir = ("Air signs are rational, social, and love communication and relationships")
 messageEarth = ("Earth signs are “grounded” and the ones that bring us down to earth They are mostly conservative and realistic")
 messageFire = ("Fire signs tend to be passionate, dynamic, and temperamental They get angry quickly, but they also forgive easily.")
 messageWater =( "Water signs are exceptionally emotional and ultra-sensitive")
     
 
-jan = ["January","january","JANUARY"]
-feb = ["Febuary","febuary","FEBUARY"]
-mar = ["March","march","MARCH"]
-apr = ["April","april","APRIL"]
+jan = ["January","january","JANUARY","jan","JAN","Jan"]
+feb = ["Febuary","febuary","FEBUARY","feb","FEB","Feb"]
+mar = ["March","march","MARCH","mar","MAR","Mar"]
+apr = ["April","april","APRIL","apr","APR","Apr"]
 may = ["May","may","MAY"]
 jun = ["June","june","JUNE"]
-jul = ["July","july","JULY"]
-aug = ["August","august","AUGUST"]
-sept = ["September","september","SEPTEMBER"]
-octo = ["October","october","OCTOBER"]
-nov = ["November","november","NOVEMBER"]
-dec = ["December","december","DECEMBER"]
+jul = ["July","july","JULY","jul","JUL","jul"]
+aug = ["August","august","AUGUST","aug","AUG","Aug"]
+sept = ["September","september","SEPTEMBER","sept","SEPT","Sept"]
+octo = ["October","october","OCTOBER","oct","OCT","Oct"]
+nov = ["November","november","NOVEMBER","nov","NOV","Nov"]
+dec = ["December","december","DECEMBER","DEC","dec","Dec"]
 
 
-if inputMonth == jan[0] or inputMonth == jan[1] or inputMonth == jan[2]:
+if inputMonth == jan[0] or inputMonth == jan[1] or inputMonth == jan[2] or inputMonth == jan[3] or inputMonth == jan[4] or inputMonth == jan[4] or inputMonth == jan[5]:
     inputMonth = "January"
-if inputMonth == feb[0] or inputMonth == feb[1] or inputMonth == feb[2]:
+if inputMonth == feb[0] or inputMonth == feb[1] or inputMonth == feb[2] or inputMonth == feb[3] or inputMonth == feb[4] or inputMonth == feb[4] or inputMonth == feb[5]:
     inputMonth = "Febuary"
-if inputMonth == mar[0] or inputMonth == mar[1] or inputMonth == mar[2]:
+if inputMonth == mar[0] or inputMonth == mar[1] or inputMonth == mar[2] or inputMonth == mar[3] or inputMonth == mar[4] or inputMonth == mar[4] or inputMonth == mar[5]:
     inputMonth = "March"
-if inputMonth == apr[0] or inputMonth == apr[1] or inputMonth == apr[2]:
+if inputMonth == apr[0] or inputMonth == apr[1] or inputMonth == apr[2] or inputMonth == apr[3] or inputMonth == apr[4] or inputMonth == apr[4] or inputMonth == apr[5]:
     inputMonth = "April"
 if inputMonth == may[0] or inputMonth == may[1] or inputMonth == may[2]:
     inputMonth = "May"
 if inputMonth == jun[0] or inputMonth == jun[1] or inputMonth == jun[2]:
     inputMonth = "June"
-if inputMonth == jul[0] or inputMonth == jul[1] or inputMonth == jul[2]:
+if inputMonth == jul[0] or inputMonth == jul[1] or inputMonth == jul[2] or inputMonth == jul[3] or inputMonth == jul[4] or inputMonth == jul[4] or inputMonth == jul[5]:
     inputMonth = "July"
-if inputMonth == aug[0] or inputMonth == aug[1] or inputMonth == aug[2]:
+if inputMonth == aug[0] or inputMonth == aug[1] or inputMonth == aug[2] or inputMonth == aug[3] or inputMonth == aug[4] or inputMonth == aug[4] or inputMonth == aug[5]:
     inputMonth = "August"
-if inputMonth == sept[0] or inputMonth == sept[1] or inputMonth == sept[2]:
+if inputMonth == sept[0] or inputMonth == sept[1] or inputMonth == sept[2] or inputMonth == sept[3] or inputMonth == sept[4] or inputMonth == sept[4] or inputMonth == sept[5]:
     inputMonth = "September"
-if inputMonth == octo[0] or inputMonth == octo[1] or inputMonth == octo[2]:
+if inputMonth == octo[0] or inputMonth == octo[1] or inputMonth == octo[2] or inputMonth == octo[3] or inputMonth == octo[4] or inputMonth == octo[4] or inputMonth == octo[5]:
     inputMonth = "October"
-if inputMonth == nov[0] or inputMonth == nov[1] or inputMonth == nov[2]:
+if inputMonth == nov[0] or inputMonth == nov[1] or inputMonth == nov[2] or inputMonth == nov[3] or inputMonth == nov[4] or inputMonth == nov[4] or inputMonth == nov[5]:
     inputMonth = "November"
-if inputMonth == dec[0] or inputMonth == dec[1] or inputMonth == dec[2]:
+if inputMonth == dec[0] or inputMonth == dec[1] or inputMonth == dec[2] or inputMonth == dec[3] or inputMonth == dec[4] or inputMonth == dec[4] or inputMonth == dec[5]:
     inputMonth = "December"
     
  
@@ -230,8 +230,3 @@ else:
 
 
 print("Your birthday is : ", inputMonth , inputDay, ", And your Zodiac sign is : ", Astro , " , The element of the sign is : ", Type)
-
-
-
-    
-
